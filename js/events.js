@@ -6,7 +6,7 @@ function getIt() {
 }
 function frameIt() {
   $('img').on('load', function(){
-    <class = "tasty">
+    $('img').addclass('tasty');
   })
   return
 }
@@ -19,12 +19,12 @@ function pressIt() {
   return
 }
 
-
-  $("form").on("submit", submitIt() {
+function submitIt() {
+  $("form").on("submit", function() {
     alert("Your form is going to be submitted now.")
   })
   return
-
+}
 
 $(document).ready(function(){
 
